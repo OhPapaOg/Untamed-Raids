@@ -37,4 +37,4 @@ If you wish to contribute to this project, feel free to fork the repository and 
 
 This project is licensed under the GNU General Public License. See the LICENSE file for details.
 
-![Untamed Raids]([https://www.example.com/your-image.jpg](https://media.discordapp.net/attachments/280156291492610051/1259404980360708096/1720333118134vxbk3xim-removebg-preview.png?ex=668b8fc9&is=668a3e49&hm=08c5d0dae169a37b266d65c09336d094347c9773b4f4c821c1ac43474b816575&=&format=webp&quality=lossless&width=449&height=449))
+![Untamed Raids](https://imgur.com/a/t0z84BU)
