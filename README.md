@@ -37,4 +37,4 @@ If you wish to contribute to this project, feel free to fork the repository and 
 
 This project is licensed under the GNU General Public License. See the LICENSE file for details.
 
-![Untamed Raids](https://imgur.com/a/t0z84BU)
+![Untamed Raids](https://i.imgur.com/o8kHRYR.png)
