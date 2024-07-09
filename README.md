@@ -1,3 +1,6 @@
+![Untamed Raids](https://i.imgur.com/o8kHRYR.png)
+
+
 # Untamed Raids
 
 Untamed Raids is a script that introduces dynamic NPC raid missions to your server. Players can initiate these raids through a configurable command and face waves of enemies in various predefined areas. Upon successful completion, players are rewarded with money, items, or both.
@@ -36,5 +39,3 @@ If you wish to contribute to this project, feel free to fork the repository and 
 ## License
 
 This project is licensed under the GNU General Public License. See the LICENSE file for details.
-
-![Untamed Raids](https://i.imgur.com/o8kHRYR.png)
