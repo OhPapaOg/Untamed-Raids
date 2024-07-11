@@ -21,7 +21,7 @@ RegisterCommand(Config.Command.Name, function(source, args, rawCommand)
     if Config.Command.Access == 'all' then
         TriggerClientEvent('untamed_raids:startMission', source, area, coords)
     elseif Config.Command.Access == 'group' then
-        if User and User.group and has_value(Config.Command.AllowedGroups, User.group) then
+        if Character and Character.group and has_value(Config.Command.AllowedGroups, Character.group) then
             TriggerClientEvent('untamed_raids:startMission', source, area, coords)
         else
             TriggerClientEvent('vorp:NotifyLeft', source, 'Mission', Config.Locale.accessDenied, 'menu_textures', 'stamp_locked', 5000)
