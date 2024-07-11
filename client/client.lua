@@ -1,3 +1,5 @@
+local enemyEntities = {}
+
 RegisterNetEvent('untamed_raids:startMission')
 AddEventHandler('untamed_raids:startMission', function(area, coords)
     TriggerServerEvent('untamed_raids:notifyPlayers', 'ambush', coords)
@@ -7,7 +9,6 @@ end)
 RegisterNetEvent('untamed_raids:spawnEnemies')
 AddEventHandler('untamed_raids:spawnEnemies', function(area)
     local waveIndex = 1
-    local enemyEntities = {}
     local missionActive = true
     local missionCoords = area.enemyWaves[1].enemies[1].coords
 
@@ -81,3 +82,13 @@ function LoadModel(model)
         Citizen.Wait(10)
     end
 end
+
+AddEventHandler('onResourceStop', function(resourceName)
+    if resourceName == GetCurrentResourceName() then
+        for _, entity in ipairs(enemyEntities) do
+            if DoesEntityExist(entity) then
+                DeleteEntity(entity)
+            end
+        end
+    end
+end)
